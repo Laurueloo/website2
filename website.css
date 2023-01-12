@@ -1,0 +1,69 @@
+.boxed{
+    background-color: blueviolet;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+body{
+    margin: 0px 100px;
+    background-color: gray;
+}
+.list{
+    font: helvetica;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+    width: 15%
+}
+
+#beginning{
+    text-align: center;
+    font-family: Garamond;
+    font-size: 50px;
+    text-shadow:3px 3px 7px black;
+}
+
+#go {
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    width: 75px;
+    height: 30px;    
+}
+
+#sideBox {
+    vertical-align: top;
+    margin-top: 13px;
+    width: 20%;
+    background-color: blueviolet;
+    padding: 25px;
+}
+#main{
+    width: 80%;
+    background-color: gainsboro;
+    padding: 25px;
+    margin-top: 13px;
+    margin-right: 13px;
+}
+#content{
+    display: flex;
+}
+.search{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    gap: 15px;
+}
+#search {
+    width: 400px;
+}
+.randomBox {
+    background-color: gainsboro;
+    padding: 25px;
+    margin-top: 13px;
+}
